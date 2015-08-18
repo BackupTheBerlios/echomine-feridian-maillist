@@ -1,0 +1,218 @@
+From ckchris at echomine.com  Thu Jun  1 02:15:55 2006
+From: ckchris at echomine.com (Chris Chen)
+Date: Wed, 31 May 2006 17:15:55 -0700
+Subject: [Echomine Feridian] New Mailing List For Echomine
+Message-ID: <7D2B89DB-C570-4015-9C15-DBDA26E3AE05@echomine.com>
+
+Hi All,
+
+I want to let everyone know that there are changes happening this  
+week in regards to mailing lists.
+
+What's Going On?
+=================
+As you might or might not know, I have transferred Echomine to be  
+hosted at Berlios.de.  Furthermore, the project is no longer hosted  
+only for the previous Echomine Muse project, but rather the new  
+project name is Echomine and will be the new umbrella for all future  
+Echomine projects.
+
+These changes are done in preparation for the first release of  
+Feridian (finally!).
+
+
+What does this mean to you?
+========================
+I have migrated all the mailing list subscribers for the previous  
+muse-announce at lists.sourceforge.net and muse- 
+developer at lists.sourceforge.net to these new mailing lists.  If you  
+are already subscribed to this list and still prefer to remain on  
+this list, then no action is required.
+
+
+Mailing Lists Updates
+========================
+The old mailing lists SHOULD not be used any longer.  Please update  
+your address book to use these new addresses.
+
+muse-announce at lists.sourceforge.net (old) ==> echomine- 
+announce at lists.berlios.de
+muse-developer at lists.sourceforge.net (old) ==> non-existent as Muse  
+is no longer supported
+All muse-developer subscribers ==> echomine-feridian at lists.berlios.de
+
+As noted, if you are on muse-developer, you are automatically on the  
+new echomine-feridian at lists.berlios.de list.  You should have gotten  
+a welcoming email for this.
+
+New Passwords
+=========================
+Since these are new lists on a different server, passwords were not  
+migrated.  You should have been assigned a default password.  If you  
+did not get an email for the default password, please visit the  
+following links and you can have new passwords be sent to you once  
+you enter the options page:
+
+
+No longer want to be on this list?
+===========================
+Visit the following links above to change your subscription options.   
+Again, the links are:
+
+echomine-announce: http://lists.berlios.de/mailman/listinfo/echomine- 
+announce
+echomine-feridian: http://lists.berlios.de/mailman/listinfo/echomine- 
+feridian
+
+
+Questions?
+===================
+If you have any questions or inquiries, just email me directly at  
+ckchris at echomine.com.
+
+
+Regards,
+Chris Chen
+Echomine
+
+
+From ckchris at echomine.com  Thu Jun  1 03:05:19 2006
+From: ckchris at echomine.com (Chris Chen)
+Date: Wed, 31 May 2006 18:05:19 -0700
+Subject: [Echomine Feridian] Feridian 1.0b1 first version released!
+Message-ID: <5B46E737-3F78-4476-BDD6-FB063E478D0A@echomine.com>
+
+Hi All,
+
+I want to announce the FIRST anticipated release of Echomine  
+Feridian, the new XMPP/Jabber API that replaces the old Muse API  
+library.  Feridian sports an unprecedented set of features not  
+available on Muse (and other Java APIs for that matter):
+
+Feridian's goals
+=============================
+Feridian is created to address some features that were either good or  
+lacking in Muse and other APIs.  Specifically, Feridian has the  
+following goals in mind:
+
+  	*)  100% support for XMPP specs
+	*)  As much support for Jabber JEPs as possible
+	*)  Easy coding to work with 80% of XMPP functions
+	*)  Easy customization to work with the other 20%.
+	*)  Modular design to allow easy addition of new feature support
+
+What's new and supported?
+==========================
+~95% of XMPP specs are implemented
+- TLS Support
+- SSL support (superseded by TLS in modern XMPP servers)
+- SASL authentication
+- Jabber style authentication support for backwards-compatibility  
+(ie. 0k, digest, plain authentications)
+- Full Stream features parsing and support for XMPP specs.
+- Resource Binding
+- Session stream
+- IQ Roster
+- IQ Privacy
+- Full xml:lang and localization support
+
+Extreme customization capabilities
+===============================
+Feridian API also takes ease of supporting custom packets and stream  
+features to a whole new level:
+
+- XML-style configuration files makes for easy configurability of  
+Feridian
+- Easy way to override default handlers without changing any Feridian  
+jar files
+- Modularity allows you to add custom packets and stream features  
+support without having to modify any code or subclass any Feridian  
+classes.  Simply implement the appropriate interfaces if required and  
+write a XML configuration file to notify Feridian of the new capability.
+- Feridian allows you to take complete control over the entire stream  
+processing if needed.  This is most useful for stream processing  
+during handshake negotiation such as adding in the ability to support  
+stream compression.
+- Feridian uses JiBX as the underlying XML parsing mechanism.  What  
+this means is that you can add support for custom XML packets by  
+writing a binding file instead of xml marshalling/unmarshalling  
+code.  If custom marshalling/unmarshalling code is required, the  
+option is available as well.  Visit http://jibx.sourceforge.net/ to  
+see how JiBX works.
+
+
+Documentation
+=================
+I have not yet written the documentation.  The only code that is  
+currently available for reference is the SimpleXMPPClient located in  
+the examples/ directory.
+
+Documentation is on the way and will be available soon on http:// 
+open.echomine.org/ under the Feridian space.
+
+
+Where to download
+=================
+As there are currently no articles and documentation created yet for  
+Feridian, you can find the direct download on Berlios.de:
+
+http://developer.berlios.de/projects/echomine
+
+
+How to use Feridian
+======================
+I will shortly be writing a quickstart tutorial for Feridian and post  
+it in the near future.  For now, if you have any questions, don't  
+hesistate to post them here.  I will answer them as best as I can.
+
+
+
+What's next?
+==================
+I will be concentrating more on adding more Jabber JEP support and  
+writing documentation for the API.
+
+Please try it out and give me any feedback on what you would like to  
+see in the future releases.
+
+
+Good luck!
+
+Chris Chen
+
+
+From ckchris at echomine.com  Tue Jun  6 08:34:53 2006
+From: ckchris at echomine.com (Chris Chen)
+Date: Mon, 5 Jun 2006 23:34:53 -0700
+Subject: [Echomine Feridian] Feridian 1.0b2 Released!
+Message-ID: <5B55C3B7-95A8-4E84-8A0F-134DACB6E238@echomine.com>
+
+Hi all,
+
+Feridian 1.0b2 is released and add minor enhancements and bugfixes.
+
+What changed?
+==============
+- Created maven bundles and released it to the maven repository.
+- Version 1.0b2 is the first version to be released on maven.  It's  
+still in progress of being synced to ibiblio.  Please be patient.
+- Fixed some issues with jabber:iq:auth
+- Feridian now throws an exception when it encounters a remote server  
+that is not XMPP compliant (ie. no version attribute defined).
+
+
+Download now
+===================
+https://developer.berlios.de/project/showfiles.php?group_id=4185
+
+Changelog/Release Notes
+=========================
+http://open.echomine.org/jira/browse/FRDN? 
+report=com.atlassian.jira.plugin.system.project:changelog-panel
+
+
+
+Thank you,
+Chris Chen
+
+

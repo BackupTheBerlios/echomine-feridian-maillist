@@ -1,0 +1,28 @@
+From ckchris at echomine.com  Sat Aug 12 22:30:10 2006
+From: ckchris at echomine.com (Chris Chen)
+Date: Sat, 12 Aug 2006 13:30:10 -0700
+Subject: [Echomine Feridian] [Announce] Feridian 1.0b3 Released!
+Message-ID: <4BA19D9B-8A25-4269-9AD0-68CDA2C1D430@echomine.com>
+
+Hi,
+
+I'm proud to release the newest version of Feridian.  This version is  
+now fully managed under maven2.  There are no significant changes to  
+the API for this version other than a couple buxfixes.
+
+
+Changelog:  http://open.echomine.org/jira/secure/ReleaseNote.jspa? 
+projectId=10050&styleName=Html&version=10091
+
+Download: http://developer.berlios.de/project/showfiles.php? 
+group_id=4185
+
+
+Next release will offer additional support for features and new JEPs.
+
+Have a great weekend!
+
+-Chris
+
+
+

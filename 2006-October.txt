@@ -1,0 +1,33 @@
+From ckchris at echomine.com  Fri Oct  6 13:26:10 2006
+From: ckchris at echomine.com (Chris Chen)
+Date: Fri, 6 Oct 2006 04:26:10 -0700
+Subject: [Echomine Feridian] [Announce] Feridian 1.0b4 Released! Looking for
+	Help too!
+Message-ID: <63A6C7D2-2681-4E42-A600-044C4ECF21C4@echomine.com>
+
+Hi everyone!
+
+Today, I bring you good news that Feridian 1.0b4 is released.  This  
+version fixes a showstopping bug where any packet sent  
+programmatically will close the connection.  This and a few other  
+bugs were fixed.
+
+You can download the newest version at:
+
+http://developer.berlios.de/project/showfiles.php?group_id=4185
+
+You can also point Maven to Echomine's repository to download the  
+newest Feridian version at:
+
+http://echomine.berlios.de/maven2
+
+
+I will actually begin adding more features to the API, specifically  
+MUC and PubSub.
+
+
+Thanks,
+Chris
+
+
+
